@@ -1,0 +1,2 @@
+export const AUTHORIZE = 'AUTHORIZE';
+export const SAVE_WECHAT_USER ='SAVE_WECHAT_USER'
