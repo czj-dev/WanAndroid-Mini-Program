@@ -2,9 +2,56 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "玩Android"
+			"navigationBarTitleText": "资讯"
+		}
+	}, {
+		"path": "pages/star/index",
+		"style": {
+			"navigationBarTitleText": "公众号"
+		}
+	}, {
+		"path": "pages/bookmarks/bookmarks",
+		"style": {
+			"navigationBarTitleText": "收藏"
+		}
+	}, {
+		"path": "pages/self/self",
+		"style": {
+			"navigationBarTitleText": "我的"
 		}
 	}],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#333333",
+		"backgroundColor": "#FFFFFF",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "资讯",
+				"iconPath": "static/image/shouye_normal.png",
+				"selectedIconPath": "static/image/shouye.png"
+			},
+			{
+				"pagePath": "pages/star/index",
+				"text": "公众号",
+				"iconPath": "static/image/yuedu_normal.png",
+				"selectedIconPath": "static/image/yuedu.png"
+			},
+			{
+				"pagePath": "pages/bookmarks/bookmarks",
+				"text": "收藏",
+				"iconPath": "static/image/dangan_normal.png",
+				"selectedIconPath": "static/image/dangan.png"
+			},
+			{
+				"pagePath": "pages/self/self",
+				"text": "我的",
+				"iconPath": "static/image/wode_normal.png",
+				"selectedIconPath": "static/image/wode.png"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -13,7 +60,8 @@
 		"usingComponents": {
 			"van-tab": "/wxcomponents/vant/tab/index",
 			"van-tabs": "/wxcomponents/vant/tabs/index",
-			"van-card": "/wxcomponents/vant/card/index"
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-tree-select": "/wxcomponents/vant/tree-select/index"
 		}
 	}
 }

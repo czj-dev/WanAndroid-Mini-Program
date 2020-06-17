@@ -13,7 +13,6 @@
           v-for="item in bannerList"
           :key="item.id"
         >
-          <view>testing</view>
           <image class="banner-preview-image" :src="item.imagePath"></image>
         </swiper-item>
       </swiper>
